@@ -1,15 +1,15 @@
 {
-      "name": "The Anki Vector",
+      "name": "Alpha Zero Bot",
       "description": "An Anime themed Telegram group management bot.",
-      "logo": "https://telegra.ph/file/e10a45d0433a1ab6fed7b.jpg",
+      "logo": "https://telegra.ph/file/d7e54f6a85a01c2d54cbe.jpg",
       "keywords": [
          "telegram",
          "anime",
          "group",
          "manager",
-         "Ankivector"
+         "AlphaZero"
       ],   
-   "repository": "https://github.com/Venuja104/The-Anki-Vector",
+   "repository": "https://github.com/Venuja104/tgbot",
    "addons": [
       {
          "options": {

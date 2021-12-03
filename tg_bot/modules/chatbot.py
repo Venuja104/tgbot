@@ -17,11 +17,11 @@ from telegram.ext import (
 )
 from telegram.utils.helpers import mention_html
 
-import AnkiVector.modules.sql.chatbot_sql as sql
-from AnkiVector import AI_API_KEY, SUPPORT_CHAT, dispatcher
-from AnkiVector.modules.helper_funcs.chat_status import user_admin
-from AnkiVector.modules.helper_funcs.filters import CustomFilters
-from AnkiVector.modules.log_channel import gloggable
+import tg_bot.modules.sql.chatbot_sql as sql
+from tg_bot import AI_API_KEY, SUPPORT_CHAT, dispatcher
+from tg_bot.modules.helper_funcs.chat_status import user_admin
+from tg_bot.modules.helper_funcs.filters import CustomFilters
+from tg_bot.modules.log_channel import gloggable
 
 CoffeeHouseAPI = API(AI_API_KEY)
 api_client = LydiaAI(CoffeeHouseAPI)

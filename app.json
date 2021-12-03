@@ -42,7 +42,7 @@
          "required": true,
          "value": ""
       },    
-      "SQLALCHEMY_DATABASE_URI": {
+      "DATABASE_URL": {
          "description": "Your postgres sql db, empty this field if you dont have one.",
          "required": true,
          "value": "sqldbtype://username:pw@hostname:port/db_name"
@@ -73,11 +73,6 @@
       },      
       "CASH_API_KEY": {
          "description": "Required for currency converter. Get yours from https://www.alphavantage.co/support/#api-key",
-         "required": true,
-         "value": "-xyz"
-      },
-      "TIME_API_KEY": {
-         "description": "Required for timezone information. Get yours from https://timezonedb.com/api",
          "required": true,
          "value": "-xyz"
       },
@@ -131,7 +126,7 @@
       },
       "URL": {
          "description": "The Heroku App URL",
-         "required": true,
+         "required": false,
          "value": "https://<appname>.herokuapp.com/"
       },
       "No_LOAD": {
@@ -166,12 +161,8 @@
          "description": "ID of the sticker you want to use when banning people.",
          "required": false,
          "value": ""
-      },
-      "WALL_API": {
-         "description": "Required for wallpaper. Get your's from https://wall.alphacoders.com/",
-         "required": true,
-         "value": "https://wall.alphacoders.com/big.php?i=1127691"
       }
+
    },
    "keywords": [
       "telegram",
@@ -181,5 +172,5 @@
       "daisy"
    ],
    "name": "Ankivector",
-   "repository": "https://github.com/Venuja104/The-Anki-Vector"
+   "repository": "https://github.com/Venuja104/tgbot"
 }

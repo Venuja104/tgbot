@@ -10,6 +10,8 @@ For questions regarding creating your own bot, please head to [this chat](https:
 group of volunteers to help. We'll also help when a database schema changes, and some table column needs to be
 modified/added (this info can also be found in the commit messages)
 
+### Deployment
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Venuja104/tgbot.git)
 
 Join the [news channel](https://t.me/MarieNews) if you just want to stay in the loop about new features or
 announcements.

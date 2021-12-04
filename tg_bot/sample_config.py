@@ -10,12 +10,13 @@ class Config(object):
     LOGGER = True
 
     # REQUIRED
-    API_KEY = "YOUR KEY HERE"
-    OWNER_ID = "YOUR ID HERE"  # If you dont know, run the bot and do /id in your private chat with it
-    OWNER_USERNAME = "YOUR USERNAME HERE"
+    TOKEN = "5015185836:AAH5Yl4SNRm53D8_s_6WF-mCSo9dkcIKOG8"
+    API_KEY = 7395896
+    OWNER_ID = "1826486119"  # If you dont know, run the bot and do /id in your private chat with it
+    OWNER_USERNAME = "Venuja_Sadew"
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = 'sqldbtype://username:pw@hostname:port/db_name'  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = 'postgres://frecopip:LlIsZsD-i6OaaWXcW5tihi31H6B725NN@fanny.db.elephantsql.com/frecopip'  # needed for any database modules
     MESSAGE_DUMP = None  # needed to make sure 'save from' messages persist
     LOAD = []
     # sed has been disabled after the discovery that certain long-running sed commands maxed out cpu usage
@@ -25,8 +26,8 @@ class Config(object):
     URL = None
 
     # OPTIONAL
-    SUDO_USERS = []  # List of id's (not usernames) for users which have sudo access to the bot.
-    SUPPORT_USERS = []  # List of id's (not usernames) for users which are allowed to gban, but can also be banned.
+    SUDO_USERS = [1826486119]  # List of id's (not usernames) for users which have sudo access to the bot.
+    SUPPORT_USERS = [1826486119]  # List of id's (not usernames) for users which are allowed to gban, but can also be banned.
     WHITELIST_USERS = []  # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
     DONATION_LINK = None  # EG, paypal
     CERT_PATH = None

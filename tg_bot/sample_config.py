@@ -10,13 +10,12 @@ class Config(object):
     LOGGER = True
 
     # REQUIRED
-    TOKEN = "5015185836:AAH5Yl4SNRm53D8_s_6WF-mCSo9dkcIKOG8"
-    API_KEY = 7395896
+    API_KEY = "2021474319:AAFQooY34WUZzyYqryxYMGsQd4wB7oP9Azg"
     OWNER_ID = "1826486119"  # If you dont know, run the bot and do /id in your private chat with it
-    OWNER_USERNAME = "Venuja_Sadew"
+    OWNER_USERNAME = "Venuja_SAdew"
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = 'postgres://frecopip:LlIsZsD-i6OaaWXcW5tihi31H6B725NN@fanny.db.elephantsql.com/frecopip'  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = 'sqldbtype://username:pw@hostname:port/db_name'  # needed for any database modules
     MESSAGE_DUMP = None  # needed to make sure 'save from' messages persist
     LOAD = []
     # sed has been disabled after the discovery that certain long-running sed commands maxed out cpu usage
@@ -36,7 +35,7 @@ class Config(object):
     STRICT_GBAN = False
     WORKERS = 8  # Number of subthreads to use. This is the recommended amount - see for yourself what works best!
     BAN_STICKER = 'CAADAgADOwADPPEcAXkko5EB3YGYAg'  # banhammer marie sticker
-    ALLOW_EXCL = False  # Allow ! commands as well as /
+    ALLOW_EXCL = True  # Allow ! commands as well as /
 
 
 class Production(Config):

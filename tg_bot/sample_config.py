@@ -15,7 +15,7 @@ class Config(object):
     OWNER_USERNAME = "Venuja_SAdew"
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = 'sqldbtype://username:pw@hostname:port/db_name'  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = 'postgres://frecopip:LlIsZsD-i6OaaWXcW5tihi31H6B725NN@fanny.db.elephantsql.com/frecopip'  # needed for any database modules
     MESSAGE_DUMP = None  # needed to make sure 'save from' messages persist
     LOAD = []
     # sed has been disabled after the discovery that certain long-running sed commands maxed out cpu usage
